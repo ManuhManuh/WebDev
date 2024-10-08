@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+
+<% const listIndex = 0 %>
+<% if (locals.blogText) { %>
+    <p>blogText.</p>
+    <% blogList.forEach(element => { %>
+        <form action="/edit" method="GET">
+            <input type="button" value= <%= listIndex %>>
+        </form>
+        <% listIndex++ %>
+    <% }) %>
+<% } else { %> 
+    <p>No text yet</p>
+<% } %>
+
+<%- include("partials/footer.ejs") %>

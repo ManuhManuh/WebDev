@@ -1,0 +1,26 @@
+.venn-diagram{
+    width: 400px;
+    
+}
+
+.background-grey{
+    background-color: rgb(49, 46, 51);
+   
+}
+
+.showcase{
+    width:80%;
+    height: 50%;
+}
+
+.logo{
+    width: 50px;
+}
+
+.purple-type{
+    color: blueviolet;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
